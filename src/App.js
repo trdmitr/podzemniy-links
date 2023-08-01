@@ -1,20 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import Home from './Components/Home';
+import Home from './Components/Home/Home';
+import AddToHomeScreenButton from './Components/AddToHomeScreenButton/AddToHomeScreenButton';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-       
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-       
+       {/* <AddToHomeScreenButton/> */}
+       <h2>Виталий Подземный</h2>
+        <p>Здесь собраны ссылки на необходимые сервисы Виталия! </p>
         <Home/>
       </header>
-      
     </div>
   );
 }
