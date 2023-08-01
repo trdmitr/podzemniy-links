@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-       {/* <AddToHomeScreenButton/> */}
+       <AddToHomeScreenButton/>
        <h2>Виталий Подземный</h2>
         <p>Здесь собраны ссылки на необходимые сервисы Виталия! </p>
         <Home/>
