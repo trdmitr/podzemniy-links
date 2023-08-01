@@ -1,6 +1,6 @@
 {
-  "short_name": "links_app",
-  "name": "pwa-build",
+  "short_name": "Подземный",
+  "name": "Основные ссылки",
   "icons": [
     {
       "src": "favicon.ico",
