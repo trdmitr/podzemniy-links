@@ -42,7 +42,7 @@
     width: calc(83px + 2vmin);
     height: calc(2px + 2vmin);
     box-sizing: content-box;
-    margin-bottom: 2em;
+    margin-bottom: 5em;
   }
   .infinity:before,
   .infinity:after {

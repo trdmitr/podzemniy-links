@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-
+import classes from "./AddToHomeScreenButton.module.css"
 const AddToHomeScreenButton = () => {
   const [prompt, setPrompt] = useState(null)
 
@@ -27,7 +27,7 @@ const AddToHomeScreenButton = () => {
     })
   }
 
-  return <button onClick={handleAddToHomeScreenClick}>Add to home screen</button>
+  return <button className={classes.btn} onClick={handleAddToHomeScreenClick}>Установить на экран</button>
 }
 
 export default AddToHomeScreenButton
